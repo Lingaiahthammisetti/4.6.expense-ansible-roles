@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo dnf install ansible -y
+dnf install ansible -y
+cd /tmp
 git clone https://github.com/Lingaiahthammisetti/4.6.expense-ansible-roles.git
 cd 4.6.expense-ansible-roles
 ansible-playbook db.yaml
